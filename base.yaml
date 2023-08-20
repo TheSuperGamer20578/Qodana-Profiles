@@ -1,4 +1,3 @@
-name: "Base"
 baseProfile: qodana.recommended
 
 inspections:
