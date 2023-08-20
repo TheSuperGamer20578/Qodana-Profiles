@@ -1,8 +1,10 @@
 baseProfile: qodana.recommended
 
 inspections:
-  - inspection: ConstantOnWrongSideOfComparison
-    myConstantShouldGoLeft: false
+  - inspection: All
+    ignore:
+      - LICENCE*
+      - Qodana-Profiles/**
 
 groups:
   - groupId: Java
@@ -92,7 +94,7 @@ groups:
       - ConditionalCanBeOptional
       - ConfusingOctalEscape
       - ConstantExpression
-      - ConstantOnWrongSideOfComparison
+      # - ConstantOnWrongSideOfComparison  # TODO Default parameters are bad
       - ControlFlowStatementWithoutBraces
       - MoveFieldAssignmentToInitializer
       - FieldMayBeFinal
