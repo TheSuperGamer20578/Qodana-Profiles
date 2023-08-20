@@ -1,0 +1,7 @@
+name: "Minecraft"
+baseProfile: Base
+
+inspections:
+  - group: Java
+    enabled: true
+
