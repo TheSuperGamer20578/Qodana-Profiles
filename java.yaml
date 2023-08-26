@@ -1,10 +1,8 @@
-name: "Minecraft"
+name: "Java"
 
 include:
   - "base.yaml"
 
 inspections:
   - group: Java
-    enabled: true
-  - group: Minecraft
     enabled: true

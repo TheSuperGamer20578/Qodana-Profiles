@@ -330,49 +330,6 @@ groups:
       - OverloadedVarargsMethod
       - ThreeNegationsPerMethod
       - ThrownExceptionsPerMethod
-      - WrongEntityDataParameterClass
-      - MissingFormat
-      - NoTranslation
-      - SuperfluousFormat
-      - IsCancelled
-      - InjectCouldBeOverwrite
-      - InjectIntoConstructor
-      - InterfaceIsInterface
-      - ShadowFieldPrefix
-      - AmbiguousMixinReference
-      - DuplicateInterface
-      - DuplicateInterfacePrefix
-      - EmptyImplements
-      - ImplicitConstructorInvoker
-      - MixinInnerClass
-      - MixinSuperClass
-      - InvalidMixinTarget
-      - OverwriteModifiers
-      - ShadowModifiers
-      - InvalidConfigValue
-      - InvalidInjectorMethodSignature
-      - InvalidMemberReference
-      - InvalidMixinPluginRegistration
-      - InvalidMixinRegistration
-      - InvalidInterfacePrefix
-      - MissingUnique
-      - CancellableInjectionUsage
-      - AnnotationOutsideOfMixin
-      - NonJavaMixin
-      - UnusedMixin
-      - ShadowFinalModification
-      - ModifyVariableMayBeArgsOnly
-      - AddedMixinMembersNamePattern
-      - OverwriteAuthorRequired
-      - PublicStaticMixinMember
-      - ReferenceToMixin
-      - SoftImplementOverrides
-      - UnnecessaryQualifiedMemberReference
-      - UnqualifiedMemberReference
-      - UnresolvedConfigReference
-      - MixinAnnotationTarget
-      - UnresolvedMixinReference
-      - UnusedShadowMethodPrefix
       - InconsistentLanguageLevel
       - ModuleWithTooManyClasses
       - NotNullFieldNotInitialized
@@ -594,4 +551,49 @@ groups:
       - MethodOverridesStaticMethod
       - ParameterHidingMemberVariable
       - MethodOverloadsParentMethod
-      - FieldHidesSuperclassField 
+      - FieldHidesSuperclassField
+  - groupId: Minecraft
+    inspections:
+      - WrongEntityDataParameterClass
+      - MissingFormat
+      - NoTranslation
+      - SuperfluousFormat
+      - IsCancelled
+      - InjectCouldBeOverwrite
+      - InjectIntoConstructor
+      - InterfaceIsInterface
+      - ShadowFieldPrefix
+      - AmbiguousMixinReference
+      - DuplicateInterface
+      - DuplicateInterfacePrefix
+      - EmptyImplements
+      - ImplicitConstructorInvoker
+      - MixinInnerClass
+      - MixinSuperClass
+      - InvalidMixinTarget
+      - OverwriteModifiers
+      - ShadowModifiers
+      - InvalidConfigValue
+      - InvalidInjectorMethodSignature
+      - InvalidMemberReference
+      - InvalidMixinPluginRegistration
+      - InvalidMixinRegistration
+      - InvalidInterfacePrefix
+      - MissingUnique
+      - CancellableInjectionUsage
+      - AnnotationOutsideOfMixin
+      - NonJavaMixin
+      - UnusedMixin
+      - ShadowFinalModification
+      - ModifyVariableMayBeArgsOnly
+      - AddedMixinMembersNamePattern
+      - OverwriteAuthorRequired
+      - PublicStaticMixinMember
+      - ReferenceToMixin
+      - SoftImplementOverrides
+      - UnnecessaryQualifiedMemberReference
+      - UnqualifiedMemberReference
+      - UnresolvedConfigReference
+      - MixinAnnotationTarget
+      - UnresolvedMixinReference
+      - UnusedShadowMethodPrefix
